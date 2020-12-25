@@ -93,12 +93,9 @@ nav{
 @media screen and (max-width:990px){
    
     html {
-        font-size: 45%;
+        font-size: 50%;
     }
  
-    nav{
-        font-size: 4rem !important;
-    }
     .intro-left h1{
         top: 30%;
     }
@@ -112,13 +109,12 @@ nav{
     @media screen and (max-width:850px){
    
         html {
-            font-size: 45%;
+            font-size: 50%;
         }
-        nav{
-            font-size: 4rem !important;
-        }
+  
         .intro-left h1{
             top: 30%;
+            font-size: 2.5rem;
         }        
         .intro-right img{
             width: 60rem;
@@ -151,86 +147,84 @@ nav{
 
         
             
-        @media screen and (max-width:480px){
+        @media screen and (max-width:450px){
    
             html {
-                font-size: 25%;
+                font-size: 50%;
             }
-            nav{
-                font-size: 4rem !important;
-            }
+    
             .intro-left h1{
                 top: 12%;
-                font-size: 2.5rem;
+                font-size: 2rem;
+                
+                margin-left: 2rem !important;
+                padding-left: 0% !important;
             }
             .intro-left span{
                 font-weight: 600;
-                font-size: 7rem;
+                font-size: 3rem;
             }
 
             .intro-right{
-                width: 35%;
+                width: 30%;
 
             }
             
             .intro-right img{
-                width: 50rem;
-                height: 40rem;
+                width: 20rem;
+                height: 15rem;
                 margin-top: 6rem;
             }
+        
             }
 
             
-        @media screen and (max-width:310px){
+        @media screen and (max-width:330px){
    
             html {
-                font-size: 20%;
+                font-size: 50%;
             }
-            nav{
-                font-size: 4rem !important;
-            }
+
             .intro-left h1{
-                top: 7%;
-                font-size: 3rem;
+                top: 7rem;
+                font-size: 1rem;
             }
             .intro-left span{
-                font-weight: 600;
-                font-size: 6rem;
+                font-weight: 500;
+                font-size: 2.5rem;
             }
 
             .intro-right{
                 width: 30%;
             }
             .box{
-                height: 40rem;
+                height: 25rem;
             }
             .intro-right img{
-                width: 40rem;
-                height: 30rem;
-                margin-top: 7rem;
+                width: 20rem;
+                height: 15rem;
+                margin-top: 6rem;
             }
             }
 
             
-        @media screen and (max-width:240px){
+        @media screen and (max-width:250px){
    
             html {
-                font-size: 15%;
+                font-size: 50%;
             }
-            nav{
-                font-size: 2rem !important;
-            }
+  
             .intro-left h1{
                 top: 7%;
-                font-size: 2rem;
+                font-size: .4rem;
             }
             .intro-left span{
                 font-weight: 600;
-                font-size: 5rem;
+                font-size: 2rem;
             }
 
             .intro-right{
-                width: 33%;
+                width: 30%;
             }
 
             .box{
@@ -238,9 +232,9 @@ nav{
             }
             
             .intro-right img{
-                width: 35rem;
-                height: 25rem;
-                margin-top: 12rem;
+                width: 12rem;
+                height: 10rem;
+                margin-top: 5rem;
             }
             }
 
@@ -250,3 +244,5 @@ nav{
                    height: 0px;
                 }
             }
+
+            
