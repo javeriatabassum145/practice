@@ -167,7 +167,10 @@ nav{
 
             .intro-right{
                 width: 30%;
+            }
 
+            .box{
+                height: 25rem;
             }
             
             .intro-right img{
@@ -223,18 +226,22 @@ nav{
                 font-size: 2rem;
             }
 
+            .box{
+                height: 25rem;
+            }
+
             .intro-right{
                 width: 30%;
             }
 
             .box{
-                height: 40rem;
+                height: 20rem;
             }
             
             .intro-right img{
                 width: 12rem;
                 height: 10rem;
-                margin-top: 5rem;
+                margin-top: 6rem;
             }
             }
 
@@ -242,6 +249,9 @@ nav{
                 .intro-right img{
                    width: 0px;
                    height: 0px;
+                }
+                .box{
+                    height: 25rem;
                 }
             }
 
