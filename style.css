@@ -175,7 +175,7 @@ nav{
             
             .intro-right img{
                 width: 20rem;
-                height: 15rem;
+                height: 17rem;
                 margin-top: 6rem;
             }
         
@@ -205,7 +205,7 @@ nav{
             }
             .intro-right img{
                 width: 20rem;
-                height: 15rem;
+                height: 17rem;
                 margin-top: 6rem;
             }
             }
@@ -231,7 +231,7 @@ nav{
             }
 
             .intro-right{
-                width: 30%;
+                width: 36%;
             }
 
             .box{
@@ -239,16 +239,15 @@ nav{
             }
             
             .intro-right img{
-                width: 12rem;
-                height: 10rem;
-                margin-top: 6rem;
+                width: 15rem;
+                height: 13rem;
+                margin-top: 5rem;
             }
             }
 
             @media screen and (max-width:155){
                 .intro-right img{
-                   width: 0px;
-                   height: 0px;
+                 display: none !important;
                 }
                 .box{
                     height: 25rem;
