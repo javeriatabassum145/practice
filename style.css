@@ -1,3 +1,8 @@
+*{
+margin: 0;
+padding: 0;
+}
+
 html {
     font-size: 70%;
     scroll-behavior: smooth;
@@ -7,17 +12,9 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
-
-.intro-left{
-    margin: 0rem 0rem 0rem 10rem;
-}
-
 .btn a{
     text-decoration: none !important;
     color: black!important;
-}
-.intros{
-    background: linear-gradient(to right,rgb(212, 243, 245),white);
 }
 
 
@@ -44,12 +41,24 @@ nav .btn:hover{
     background: white;
     color: black;
 }
+
 .hello{
     font-weight: 800;
     font-size: 10rem;
 }
 
-
+.jumbotron {
+    background-image: url("/practice/intro.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 53rem;
+    color: white;
+    padding-top: 15rem;
+  }
+.border-intro{
+    border: 10px double white;
+}
 .name{
     font-size: 3.6rem;
 }
@@ -58,10 +67,6 @@ nav .btn:hover{
     font-size: 2rem;
 }
 
-.intro-right img{
-    width: 60rem;
-    height: 60rem;
-}
 
 #web-logo{
     width: 30rem;
