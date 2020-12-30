@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
+.btn a{
+    text-decoration: none !important;
+}
 html {
     font-size: 70%;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Playfair Display', serif;
@@ -12,7 +15,15 @@ body {
     height: 1000px; 
 }
 
+.about-heading h1,.education-heading h1, .skills-heading h1,.contact-heading h1,.portfolio-heading h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    font-size: 5rem;
+}
 
+.copyright p{
+    font-size: 1.5rem;
+}
 nav li{
     font-size: 1.7rem;
     margin:0rem 2rem 0rem 1rem;
@@ -20,7 +31,12 @@ nav li{
 
 nav .btn{
     font-size: 1.7rem;
-
+}
+.btn a{
+    color: white !important;
+}
+.btn a:hover{
+    color: black !important;
 }
 
 h1 .hello{
@@ -28,25 +44,20 @@ h1 .hello{
     font-size: 10rem;
 }
 
+
+
 .intro-right{
-width: 40%;
+    width: 40%;
 }
 
-/* .intros{
-    position: relative;
-} */
-
-
+.intros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .intro-right {
-    position: absolute;
-    top: 0%;
-    right: 0%;
-}
-.intro-right img{
-    position: absolute;
-    top: 5%;
-    right: 10%;
+    margin-right: -2rem;
 }
 
 .bg-purple{
@@ -54,23 +65,55 @@ width: 40%;
 }
 
 .intro-left h1{
-    position: absolute;
-    top: 35%;
-    margin: 5rem;
+    margin: 4rem;
     font-size: 3.6rem;
 }
 
 .box{
     background-color: rgb(36, 9, 36);
     width: 100%;
-    height: 65rem;
+    height: 60rem;
 }
 
 .intro-right img{
-    width: 65rem;
-    height: 60rem;
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+    width: 60rem;
+    height: 55rem;
     margin-top: 5rem;
 }
+
+#web-logo{
+    width: 30rem;
+    height: 30rem;
+}
+
+#web-logo2{
+    width: 30rem;
+    height: 30rem;
+}
+
+.card p, .card span{
+    font-size: 1.6rem;
+    padding: 3rem 0rem 2rem 0rem;
+}
+
+.about p{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 3rem 0rem 2rem 0rem;
+}
+
+.footer-color{
+    background-color: rgb(36, 9, 36);
+}
+
+.footer-color img{
+    width: 2rem;
+    height: 2rem;
+}
+
 
 @media screen and (max-width:1180px){
    
