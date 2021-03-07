@@ -37,14 +37,14 @@ nav .btn{
     font-size: 1.7rem;
 }
 
-nav .btn:hover{
+/* nav .btn:hover{
     background: white;
     color: black;
-}
+} */
 
 .hello{
-    font-weight: 800;
-    font-size: 10rem;
+    font-weight: 700;
+    font-size: 8rem;
 }
 
 .jumbotron {
