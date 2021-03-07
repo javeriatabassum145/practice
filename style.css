@@ -20,8 +20,8 @@ body {
 
 .about-heading h1,.education-heading h1, .skills-heading h1,.contact-heading h1,.portfolio-heading h1{
     font-family: 'Merriweather', serif;
-    font-weight: 800;
-    font-size: 5rem;
+    font-weight: 700;
+    font-size: 4.5rem;
 }
 
 .copyright p{
@@ -54,7 +54,7 @@ nav .btn{
     background-size: cover;
     height: 53rem;
     color: white;
-    padding-top: 15rem;
+    padding-top: 12rem;
   }
 .border-intro{
     border: 10px double white;
